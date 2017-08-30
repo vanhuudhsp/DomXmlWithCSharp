@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DATABASE SYSTEM "HANGHOA.dtd"[]>
+<DATABASE>
+  <!-- Table NHAN_VIEN -->
+  <NHAN_VIEN>
+    <nhanvien>
+      <MaNV>NV01</MaNV>
+      <HoTen>Lê Thị Thanh Trúc</HoTen>
+      <NgaySinh>25/10/1982</NgaySinh>
+      <DienThoai>8555444</DienThoai>
+    </nhanvien>
+    <nhanvien>
+      <MaNV>NV02</MaNV>
+      <HoTen>Trần Thanh Nhân</HoTen>
+      <NgaySinh>20/09/1980</NgaySinh>
+      <DienThoai>8666333</DienThoai>
+    </nhanvien>
+    <nhanvien>
+      <MaNV>NV03</MaNV>
+      <HoTen>Trần Bích Vân</HoTen>
+      <NgaySinh>15/02/1975</NgaySinh>
+      <DienThoai>5222333</DienThoai>
+    </nhanvien>
+  </NHAN_VIEN>
+  <!-- Table HANG_HOA -->
+  <HANG_HOA>
+    <hanghoa>
+      <MaHH>HH01</MaHH>
+      <TenHH>Bông vải</TenHH>
+      <DonVT>kg</DonVT>
+    </hanghoa>
+    <hanghoa>
+      <MaHH>HH02</MaHH>
+      <TenHH>Thuốc nhuộm màu tím</TenHH>
+      <DonVT>Lít</DonVT>
+    </hanghoa>
+    <hanghoa>
+      <MaHH>HH03</MaHH>
+      <TenHH>Vải lụa tơ tằm</TenHH>
+      <DonVT>m2</DonVT>
+    </hanghoa>
+    <hanghoa>
+      <MaHH>HH04</MaHH>
+      <TenHH>Vải kaki</TenHH>
+      <DonVT>m2</DonVT>
+    </hanghoa>
+  </HANG_HOA>
+  <!-- Table PHIEU_NHAP_XUAT -->
+  <PHIEU_NHAP_XUAT>
+    <phieunx>
+      <SoPhieu>PH01</SoPhieu>
+      <LoaiPhieu>Nhập</LoaiPhieu>
+      <NgayLapPhieu>15/10/2008</NgayLapPhieu>
+      <MaNV>NV02</MaNV>
+      <TriGia>85000000</TriGia>
+    </phieunx>
+    <phieunx>
+      <SoPhieu>PH02</SoPhieu>
+      <LoaiPhieu>Xuất</LoaiPhieu>
+      <NgayLapPhieu>12/9/2005</NgayLapPhieu>
+      <MaNV>NV02</MaNV>
+      <TriGia>68000000</TriGia>
+    </phieunx>
+    <phieunx>
+      <SoPhieu>PH03</SoPhieu>
+      <LoaiPhieu>Nhập</LoaiPhieu>
+      <NgayLapPhieu>22/10/2007</NgayLapPhieu>
+      <MaNV>NV03</MaNV>
+      <TriGia>0</TriGia>
+    </phieunx>
+    <phieunx>
+      <SoPhieu>PH04</SoPhieu>
+      <LoaiPhieu>Xuất</LoaiPhieu>
+      <NgayLapPhieu>25/10/2010</NgayLapPhieu>
+      <MaNV>NV01</MaNV>
+      <TriGia>37800000</TriGia>
+    </phieunx>
+    <phieunx>
+      <SoPhieu>PH06</SoPhieu>
+      <LoaiPhieu>Nhập</LoaiPhieu>
+      <NgayLapPhieu>1/11/2010</NgayLapPhieu>
+      <MaNV>NV03</MaNV>
+      <TriGia>0</TriGia>
+    </phieunx>
+  </PHIEU_NHAP_XUAT>
+  <!-- Table CT_PHIEU_NX -->
+  <CT_PHIEU_NX>
+    <ctphieunx>
+      <SoPhieu>PH01</SoPhieu>
+      <MaHH>HH02</MaHH>
+      <SoLuong>200</SoLuong>
+      <DonGia>50000</DonGia>
+    </ctphieunx>
+    <ctphieunx>
+      <SoPhieu>PH01</SoPhieu>
+      <MaHH>HH03</MaHH>
+      <SoLuong>500</SoLuong>
+      <DonGia>150000</DonGia>
+    </ctphieunx>
+    <ctphieunx>
+      <SoPhieu>PH02</SoPhieu>
+      <MaHH>HH01</MaHH>
+      <SoLuong>1000</SoLuong>
+      <DonGia>63000</DonGia>
+    </ctphieunx>
+    <ctphieunx>
+      <SoPhieu>PH02</SoPhieu>
+      <MaHH>HH03</MaHH>
+      <SoLuong>100</SoLuong>
+      <DonGia>50000</DonGia>
+    </ctphieunx>
+    <ctphieunx>
+      <SoPhieu>PH04</SoPhieu>
+      <MaHH>HH03</MaHH>
+      <SoLuong>200</SoLuong>
+      <DonGia>189000</DonGia>
+    </ctphieunx>
+  </CT_PHIEU_NX>
+</DATABASE>
